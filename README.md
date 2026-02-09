@@ -33,7 +33,7 @@ B. Create Intents
 
 * Go to Intents → Add Intent → Name: Greeting
   
-*Sample Utterances:
+* Sample Utterances:
 
       hi
       hello
