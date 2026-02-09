@@ -32,6 +32,7 @@ B. Create Intents
 1. Greeting Intent
 
 * Go to Intents → Add Intent → Name: Greeting
+  
 *Sample Utterances:
 
       hi
