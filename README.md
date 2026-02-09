@@ -32,9 +32,18 @@ B. Create Intents
 1. Greeting Intent
 
 * Go to Intents → Add Intent → Name: Greeting
-  
 * Sample Utterances:
 
       hi
       hello
       hey
+* Closing Responses:
+
+      Hi, welcome to the Amazing Pizza Store! My name is Joanna. I can help you with your pizza or drink orders. Which would you like to order?
+* Add response variations if needed:
+
+      Yo! Welcome to the shop, Joanna here. I'll help you place your order.
+* Save and Build Bot.
+* Test: Type hi or hello → bot should respond correctly.
+
+
