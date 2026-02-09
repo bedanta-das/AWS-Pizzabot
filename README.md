@@ -3,7 +3,7 @@ A simple chatbot built on AWS Lex that allows users to order pizza and drinks. T
 
 This project is perfect for beginners who want to get started with AWS chatbots, slot types, and intents.
 
-#🚀 Features
+# 🚀 Features
 * Greeting Intent: Welcomes users and guides them on how to interact with the bot.
 * Pizza Ordering Intent: Allows users to select pizza size and toppings.
 * Drink Ordering Intent: Lets users select drinks and quantity.
