@@ -17,12 +17,23 @@ This project is perfect for beginners who want to get started with AWS chatbots,
 * Basic understanding of chatbots and AWS console
 
 # 📝 Step-by-Step Guide
-Create a New Bot
+A. Create a New Bot
 1. Open AWS Console → Lex → Create Bot.
 2. Give your bot a name: PizzaOrderingBot.
 3. Select Create a basic bot and leave default settings.
 4. Configure:
-  * Language: English (US)
-  * Voice: Joanna (or any preferred voice)
-  * Intent classification confidence threshold: 0.4
+* Language: English (US)
+* Voice: Joanna (or any preferred voice)
+* Intent classification confidence threshold: 0.4
 5. Click Done.
+
+B. Create Intents
+1. Greeting Intent
+
+* Go to Intents → Add Intent → Name: Greeting
+
+ Sample Utterances:
+
+    hi
+    hello
+    hey
