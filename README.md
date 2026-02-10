@@ -23,3 +23,12 @@ It demonstrates the core building blocks of AWS Lex:
 | Utterance |	Example phrases triggering an intent |
 | Slot | Required information to fulfill an intent |
 | Slot Type | Allowed values for slots |
+
+✅ Prerequisites
+
+* AWS account
+* Console access permissions for:
+  * Amazon Lex
+  * IAM auto-role creation (default wizard behavior)
+  
+⚠️ Note: AWS services may incur charges depending on usage. Review pricing before deployment.
