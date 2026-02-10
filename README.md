@@ -47,3 +47,72 @@ It demonstrates the core building blocks of AWS Lex:
 | Language |	English (US) |
 | Voice |	Joanna |
 | Confidence threshold |	0.4 |
+
+5. Click Create
+
+🧠 Step 2 — Create Slot Types
+
+Go to Slot types → Create
+
+SizeType
+
+Values:
+
+    small
+    medium
+    large
+    
+ToppingType
+
+Values:
+
+    pepperoni
+    sausage
+    chicken
+    
+DrinkType
+
+Values:
+
+    Coke
+    Pepsi
+    Sprite
+    Vodka
+
+Save each slot type.
+
+👋 Step 3 — Greeting Intent
+
+Go to Intents → Create intent
+
+Name
+
+    Greeting
+
+Sample Utterances
+
+    hi
+    hello
+    hey
+    
+Closing Response
+
+    Hi! Welcome to the Amazing Pizza Store.
+    I can help you order pizza or drinks.
+    What would you like?
+
+Save → Build
+
+🍕 Step 4 — Pizza Ordering Intent
+
+Create intent:
+
+Name
+
+    PizzaOrdering
+    
+Utterances
+
+    I want pizza
+    Order pizza
+    I'd like pizza
