@@ -30,6 +30,7 @@ A. Create a New Bot
 B. Create Intents
 
 1. Greeting Intent
+
 i. Go to Intents → Add Intent → Name: Greeting
 ii. Sample Utterances:
 
