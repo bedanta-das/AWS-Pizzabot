@@ -1,10 +1,10 @@
-🍕 AWS Lex Chatbot — Pizza Ordering (Console-Only Guide)
+# 🍕 AWS Lex Chatbot — Pizza Ordering (Console-Only Guide)
 
 This repository documents how to build a pizza ordering chatbot using AWS Lex (V2) entirely through the AWS Management Console — no JSON imports, no code, and no CLI required.
 
 It’s designed for beginners learning conversational AI concepts like intents, utterances, and slots.
 
-📌 Overview
+# 📌 Overview
 
 This chatbot can:
 
@@ -24,16 +24,16 @@ It demonstrates the core building blocks of AWS Lex:
 | Slot | Required information to fulfill an intent |
 | Slot Type | Allowed values for slots |
 
-✅ Prerequisites
+# ✅ Prerequisites
 
 * AWS account
 * Console access permissions for:
   * Amazon Lex
   * IAM auto-role creation (default wizard behavior)
   
-⚠️ Note: AWS services may incur charges depending on usage. Review pricing before deployment.
+# ⚠️ Note: AWS services may incur charges depending on usage. Review pricing before deployment.
 
-🚀 Step 1 — Create the Bot
+# 🚀 Step 1 — Create the Bot
 1. Log into AWS Console
 2. Navigate to Amazon Lex
 3. Click Create bot
@@ -50,7 +50,7 @@ It demonstrates the core building blocks of AWS Lex:
 
 5. Click Create
 
-🧠 Step 2 — Create Slot Types
+# 🧠 Step 2 — Create Slot Types
 
 Go to Slot types → Create
 
@@ -81,7 +81,7 @@ Values:
 
 Save each slot type.
 
-👋 Step 3 — Greeting Intent
+# 👋 Step 3 — Greeting Intent
 
 Go to Intents → Create intent
 
@@ -103,7 +103,7 @@ Closing Response
 
 Save → Build
 
-🍕 Step 4 — Pizza Ordering Intent
+# 🍕 Step 4 — Pizza Ordering Intent
 
 Create intent:
 
