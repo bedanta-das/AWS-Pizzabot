@@ -32,3 +32,17 @@ It demonstrates the core building blocks of AWS Lex:
   * IAM auto-role creation (default wizard behavior)
   
 ⚠️ Note: AWS services may incur charges depending on usage. Review pricing before deployment.
+
+🚀 Step 1 — Create the Bot
+1. Log into AWS Console
+2. Navigate to Amazon Lex
+3. Click Create bot
+4. Choose:
+| Setting |	Value |
+| --- | --- | 
+| Creation | method	Create a blank bot |
+| Bot name |	PizzaBot |
+| Runtime role	| Create new role |
+| Language |	English (US) |
+| Voice |	Joanna |
+| Confidence threshold |	0.4 |
