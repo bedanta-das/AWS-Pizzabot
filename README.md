@@ -16,9 +16,10 @@ This chatbot can:
 
 It demonstrates the core building blocks of AWS Lex:
 
-Component	                                                Purpose
-Bot	                                    Container for conversational logic
-Intent	                                   User goal (ordering pizza, greeting)
-Utterance	                                   Example phrases triggering an intent
-Slot	                                 Required information to fulfill an intent
-Slot Type	                                        Allowed values for slots
+| Component	| Purpose |
+| ---- | ---- |
+| Bot | Container for conversational logic |
+| Intent | User goal (ordering pizza, greeting) |
+| Utterance |	Example phrases triggering an intent |
+| Slot | Required information to fulfill an intent |
+| Slot Type | Allowed values for slots |
