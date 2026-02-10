@@ -41,7 +41,7 @@ It demonstrates the core building blocks of AWS Lex:
 
 | Setting |	Value |
 | --- | --- | 
-| Creation | method	Create a blank bot |
+| Creation | Method	Create a blank bot |
 | Bot name |	PizzaBot |
 | Runtime role	| Create new role |
 | Language |	English (US) |
