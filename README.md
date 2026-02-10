@@ -116,3 +116,20 @@ Utterances
     I want pizza
     Order pizza
     I'd like pizza
+
+# Slots
+* Slot 1
+  
+| Field |	Value |
+| --- | --- |
+| Name |	PizzaSize |
+| Slot Type |	SizeType |
+| Prompt |	What size pizza would you like? |
+
+* Slot 2
+
+| Field |	Value |
+| --- | --- |
+| Name |	PizzaTopping |
+| Slot Type |	ToppingType |
+| Prompt |	What topping would you like? |
