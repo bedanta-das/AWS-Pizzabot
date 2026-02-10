@@ -38,6 +38,7 @@ It demonstrates the core building blocks of AWS Lex:
 2. Navigate to Amazon Lex
 3. Click Create bot
 4. Choose:
+
 | Setting |	Value |
 | --- | --- | 
 | Creation | method	Create a blank bot |
