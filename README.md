@@ -133,3 +133,96 @@ Utterances
 | Name |	PizzaTopping |
 | Slot Type |	ToppingType |
 | Prompt |	What topping would you like? |
+
+# Confirmation Prompt
+
+You want a {PizzaSize} pizza with {PizzaTopping}.
+Should I place the order?
+
+# Decline Message
+
+Okay — order cancelled.
+
+# Success Response
+
+Your pizza order has been placed!
+Anything else?
+
+Save → Build
+
+# 🥤 Step 5 — Drink Ordering Intent
+
+Create intent:
+# Name
+    DrinkOrdering
+# Utterances
+    drinks
+    I want drinks
+    Order a drink
+
+# Slots
+* Slot 1
+
+| Field |	Value |
+| --- | --- |
+| Name |	DrinkType |
+| Slot Type |	DrinkType |
+| Prompt |	What drink would you like? |
+
+* Slot 2
+
+| Field |	Value |
+| --- | --- |
+| Name |	DrinkQuantity |
+| Slot Type |	AMAZON.Number |
+| Prompt |	How many {DrinkType}? |
+
+# Confirmation Prompt
+
+You want {DrinkQuantity} {DrinkType}.
+Is that correct?
+
+# Decline Message
+
+No problem — cancelled.
+
+# Success Response
+
+Your drink order has been placed!
+
+Save → Build
+
+# 🧪 Step 6 — Test the Bot
+
+Use the Test Panel in the console.
+
+## Try:
+    hi
+    I want pizza
+    medium
+    pepperoni
+    yes
+    I want drinks
+    Coke
+    2
+    yes
+
+You should observe:
+* Slot prompting
+* Confirmation
+* Fulfillment responses
+* Natural language matching
+
+# 📈 Optional Extensions
+
+You can enhance this bot by adding:
+* Lambda backend fulfillment
+* Payment processing
+* Delivery address slots
+* Multi-language support
+* Channel integrations (Slack, Twilio, Alexa)
+
+# 🏁 Conclusion
+
+This project demonstrates the fastest way to understand AWS conversational AI using only the browser console.
+No infrastructure automation or scripting is required — making it ideal for workshops, classrooms, or onboarding.
